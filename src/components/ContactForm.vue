@@ -6,8 +6,7 @@
         name="name"
         type="text"
         class="form-control"
-        v
-        model="contactLocal.name"
+        v-model="contactLocal.name"
       />
       <ErrorMessage name="name" class="error-feedback" />
     </div>
